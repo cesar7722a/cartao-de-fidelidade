@@ -17,7 +17,7 @@ function App() {
           placeholder="ID do cartão"
           className="bg-transparent px-2 flex-1 outline-none"
         />
-        <button className="size-10 bg-gray-700 rounded-lg">
+        <button className="size-10 bg-gray-700 rounded-lg hover:bg-gray-600">
           <CornerDownLeft className="mx-auto text-white" />
         </button>
       </div>
