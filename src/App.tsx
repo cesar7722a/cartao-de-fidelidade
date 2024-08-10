@@ -86,7 +86,7 @@ function App() {
             </h3>
             <div className="flex items-center gap-3">
               <div className="h-2 bg-gray-300 rounded-full flex-1">
-                <span></span>
+                <div className="w-32 h-2 bg-custom-gradient rounded-full"></div>
               </div>
               <span className="text-gray-500 text-xs">7 de 10</span>
             </div>
