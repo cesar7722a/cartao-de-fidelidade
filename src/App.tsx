@@ -3,7 +3,7 @@ import logo from "../public/Vector.png";
 import userImagem from "../public/Picture.png";
 import pinGift from "../public/pinGift.png";
 import { RenderHistorico } from "./components/renderHistoricos";
-import { RenderCartao } from "./renderCatao";
+import { RenderCartao } from "./components/renderCatao";
 
 function App() {
   return (
