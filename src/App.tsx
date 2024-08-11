@@ -7,11 +7,12 @@ import { CardCorteRestantes } from "./components/cardCortesRestantes";
 
 function App() {
   return (
-    <div className="px-3 pb-4">
+    <div className="px-3 pb-4 flex flex-col items-center">
       <div className="h-28 flex items-center">
         <img src={logo} alt="logo imagem" className="w-24 h-12 mx-auto" />
       </div>
-      <div className="h-14 rounded-xl flex px-2 py-2 gap-3 bg-[#D3CFD2]">
+
+      <div className="h-14 rounded-xl flex md:w-[400px] w-full px-2 py-2 gap-3 bg-[#D3CFD2]">
         <input
           type="text"
           placeholder="ID do cartão"
